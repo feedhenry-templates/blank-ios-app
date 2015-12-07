@@ -28,16 +28,20 @@
 
 In ```blank-ios-app/ViewController.m``` the synchronization loop is started.
 ```
-- (void)viewDidLoad {
-  [super viewDidLoad];
-  [FH initWithSuccess:^(FHResponse *response) { // [1]
-    NSLog(@"initialized OK");
-    self.statusLabel.text = @"FH init successful";
-  } AndFailure:^(FHResponse *response) { // [2]
-    NSLog(@"initialize fail, %@", response.rawResponseAsString);
-    self.statusLabel.text = @"FH init in error";
-  }];
-}
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    let successCallback:(AnyObject!) -> Void = {response in // [1]
+      print("initialized OK")
+      self.statusLabel.text = "FH init successful"
+    }
+    let errorCallback: (AnyObject!) -> Void = {response in  // [2]
+      if let response = response as? FHResponse {
+        print("FH init failed. Error = \(response.rawResponseAsString)")
+        self.statusLabel.text = "FH init in error"
+      }
+    }
+    FH.initWithSuccess(successCallback, andFailure: errorCallback)
+  }
 ```
 Initialize FH with success [1] and failure [2] callbacks.
 
