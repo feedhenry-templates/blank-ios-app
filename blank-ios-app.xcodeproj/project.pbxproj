@@ -27,7 +27,7 @@
 		48A628891C11E79100FA90F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A6288B1C11E79100FA90F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A6288E1C11E79100FA90F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		48A628901C11E79100FA90F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blank-ios-app-Info.plist"; sourceTree = "<group>"; };
 		48A628961C11EA4300FA90F3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		6A302E9FCEC7FFBEDB50A4FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2887DD9D003CB7650B32BBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		48A6287F1C11E79100FA90F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				48A628901C11E79100FA90F3 /* Info.plist */,
+				48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */,
 				48A628961C11EA4300FA90F3 /* fhconfig.plist */,
 				48A628801C11E79100FA90F3 /* main.m */,
 			);
@@ -343,7 +343,7 @@
 			baseConfigurationReference = C3A263EDCDFE709D949FA544 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "blank-ios-app/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/blank-ios-app/blank-ios-app-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.feedhenry.blank-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,7 +355,7 @@
 			baseConfigurationReference = A2887DD9D003CB7650B32BBC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "blank-ios-app/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/blank-ios-app/blank-ios-app-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.feedhenry.blank-ios-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
