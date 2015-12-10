@@ -43,3 +43,17 @@ In ```blank-ios-app/ViewController.m``` the synchronization loop is started.
 ```
 Initialize FH with success [1] and failure [2] callbacks.
 
+### iOS9 and non TLS1.2 backend
+
+If your RHMAP is depoyed without TLS1.2 support, open as source  ```blank-ios-app/blank-ios-app-Info.plist.plist``` uncomment the exception lines:
+
+```
+  <!--
+  <key>NSAppTransportSecurity</key>
+  <dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+  </dict>
+   -->
+```
+
