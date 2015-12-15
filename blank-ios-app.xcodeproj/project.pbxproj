@@ -21,7 +21,6 @@
 		48A628871C11E79100FA90F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A628861C11E79100FA90F3 /* ViewController.m */; };
 		48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A628881C11E79100FA90F3 /* Main.storyboard */; };
 		48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A6288B1C11E79100FA90F3 /* Assets.xcassets */; };
-		48A6288F1C11E79100FA90F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A6288D1C11E79100FA90F3 /* LaunchScreen.storyboard */; };
 		48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A628961C11EA4300FA90F3 /* fhconfig.plist */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		48A628861C11E79100FA90F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		48A628891C11E79100FA90F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A6288B1C11E79100FA90F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		48A6288E1C11E79100FA90F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blank-ios-app-Info.plist"; sourceTree = "<group>"; };
 		48A628961C11EA4300FA90F3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
 		6A302E9FCEC7FFBEDB50A4FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +110,6 @@
 				48A628861C11E79100FA90F3 /* ViewController.m */,
 				48A628881C11E79100FA90F3 /* Main.storyboard */,
 				48A6288B1C11E79100FA90F3 /* Assets.xcassets */,
-				48A6288D1C11E79100FA90F3 /* LaunchScreen.storyboard */,
 				48A6287F1C11E79100FA90F3 /* Supporting Files */,
 			);
 			path = "blank-ios-app";
@@ -186,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */,
-				48A6288F1C11E79100FA90F3 /* LaunchScreen.storyboard in Resources */,
 				48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */,
 				48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */,
 			);
@@ -214,14 +210,6 @@
 				48A628891C11E79100FA90F3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		48A6288D1C11E79100FA90F3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48A6288E1C11E79100FA90F3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
