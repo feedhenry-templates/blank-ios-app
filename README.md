@@ -1,4 +1,6 @@
 # blank-ios-app 
+> Swift version of Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/swift).
+> ObjC/Cocoapods of  Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/cocoapods).
 
 ```blank-ios-app``` iOS Blank app is a simple app to get you started with [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk).
 
