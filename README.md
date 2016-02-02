@@ -1,4 +1,4 @@
-# blank-ios-app 
+# blank-ios-app [![Build Status](https://travis-ci.org/feedhenry-templates/blank-ios-app.png)](https://travis-ci.org/feedhenry-templates/blank-ios-app)
 
 ```blank-ios-app``` iOS Blank app is a simple app to get you started with [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk).
 
