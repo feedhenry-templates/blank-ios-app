@@ -10,7 +10,7 @@ Summary: A demonstration of how to get started with RHMAP.
 Community Project : [Feed Henry](http://feedhenry.org)
 Target Product: RHMAP  
 Product Versions: RHMAP 3.7.0+   
-Source: https://github.com/feedhenry-templates/sync-ios-app  
+Source: https://github.com/feedhenry-templates/blank-ios-app  
 Prerequisites: fh-ios-sdk : 3.+, Xcode : 7.2+, iOS SDK : iOS7+
 
 ## What is it?
