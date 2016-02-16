@@ -3,29 +3,47 @@
 > Swift version of Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/swift).
 > ObjC/Cocoapods of  Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/cocoapods).
 
-```blank-ios-app``` iOS Blank app is a simple app to get you started with [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk).
+Author: Corinne Krych   
+Level: Intermediate  
+Technologies: Objective-C, iOS, RHMAP
+Summary: A demonstration of how to get started with RHMAP. 
+Community Project : [Feed Henry](http://feedhenry.org)
+Target Product: RHMAP  
+Product Versions: RHMAP 3.7.0+   
+Source: https://github.com/feedhenry-templates/sync-ios-app  
+Prerequisites: fh-ios-sdk : 3.+, Xcode : 7.2+, iOS SDK : iOS7+
 
-|                 | Project Info  |
-| --------------- | ------------- |
-| License:        | Apache License, Version 2.0  |
-| Build:          | Embedded FH.framework  |
-| Documentation:  | http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html|
+## What is it?
 
-## Build
+Simple native iOS app to get you started with [fh-ios-sdk](https://github.com/feedhenry/fh-ios-sdk) in RHMAP. 
+
+If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
+
+## How do I run it?  
+
+### RHMAP Studio
+
+This application and its cloud services are available as a project template in RHMAP as part of the "Native iOS Blank Project" template.
+
+### Local Clone (ideal for Open Source Development)
+If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
+
+## Build instructions
 
 1. Clone this project
 
 2. Populate ```blank-ios-app/fhconfig.plist``` with your values as explained [here](http://docs.feedhenry.com/v3/dev_tools/sdks/ios.html#ios-configure).
 
 3. open blank-ios-app.xcodeproj
-
 > NOTE: If you clone it manually to make the app buildable in RHMAP Build farm, replace the templating ```%id%``` in ```blank-ios-app\blank-ios-app-Info.plist``` in the following block:
 ```xml
 <key>CFBundleIdentifier</key>
 <string>%id%</string>
 ```
 
-## Example Usage
+4. Run the project
+ 
+## How does it work?
 
 ### FH init
 
