@@ -15,25 +15,24 @@
 */
 
 import UIKit
-import FH
+import FeedHenry
 
 class ViewController: UIViewController {
-  @IBOutlet var statusLabel: UILabel!
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
+    @IBOutlet var statusLabel: UILabel!
     
-    // Initialized cloud connection
-    let successCallback:(AnyObject!) -> Void = {response in
-      print("initialized OK")
-      self.statusLabel.text = "FH init successful"
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // FH.init using Swift FH sdk
+        // trailing closure Swift syntax
+        FH.init { (resp:Response, error: NSError?) -> Void in
+            if let error = error {
+                self.statusLabel.text = "FH init in error"
+                print("Error: \(error)")
+            }
+            self.statusLabel.text = "FH init successful"
+            print("Response: \(resp.parsedResponse)")
+        }
+
     }
-    let errorCallback: (AnyObject!) -> Void = {response in
-      if let response = response as? FHResponse {
-        print("FH init failed. Error = \(response.rawResponseAsString)")
-        self.statusLabel.text = "FH init in error"
-      }
-    }
-    FH.initWithSuccess(successCallback, andFailure: errorCallback)
-  }
 }
