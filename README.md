@@ -1,6 +1,6 @@
 # blank-ios-app [![Build Status](https://travis-ci.org/feedhenry-templates/blank-ios-app.png)](https://travis-ci.org/feedhenry-templates/blank-ios-app)
 
-> Swift version of Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/swift).
+> Swift version of Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-swift).
 > ObjC/Cocoapods of  Blank iOS app is available [here](https://github.com/feedhenry-templates/blank-ios-app/tree/cocoapods).
 
 Author: Corinne Krych   
