@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32CD8F5F3E41B213B722588B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A302E9FCEC7FFBEDB50A4FE /* libPods.a */; };
 		48A628811C11E79100FA90F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A628801C11E79100FA90F3 /* main.m */; };
 		48A628841C11E79100FA90F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A628831C11E79100FA90F3 /* AppDelegate.m */; };
 		48A628871C11E79100FA90F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A628861C11E79100FA90F3 /* ViewController.m */; };
 		48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A628881C11E79100FA90F3 /* Main.storyboard */; };
 		48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A6288B1C11E79100FA90F3 /* Assets.xcassets */; };
 		48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A628961C11EA4300FA90F3 /* fhconfig.plist */; };
+		5DDE2FD17ADCF332EF5B3B1E /* libPods-blank-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1547A5D6E5A5F8EFDBF /* libPods-blank-ios-app.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B2F59E61A098928DD4DAA09 /* Pods-blank-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blank-ios-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
 		48A6287C1C11E79100FA90F3 /* blank-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blank-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A628801C11E79100FA90F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A628821C11E79100FA90F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,9 +28,8 @@
 		48A6288B1C11E79100FA90F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blank-ios-app-Info.plist"; sourceTree = "<group>"; };
 		48A628961C11EA4300FA90F3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
-		6A302E9FCEC7FFBEDB50A4FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2887DD9D003CB7650B32BBC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C3A263EDCDFE709D949FA544 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BAD179FC88B529C811C9A744 /* Pods-blank-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blank-ios-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		FC0FB1547A5D6E5A5F8EFDBF /* libPods-blank-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blank-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32CD8F5F3E41B213B722588B /* libPods.a in Frameworks */,
+				5DDE2FD17ADCF332EF5B3B1E /* libPods-blank-ios-app.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		303E272D918D1CD0E308A02E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A302E9FCEC7FFBEDB50A4FE /* libPods.a */,
+				FC0FB1547A5D6E5A5F8EFDBF /* libPods-blank-ios-app.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,8 +97,8 @@
 		C96867C7B805112060F69180 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C3A263EDCDFE709D949FA544 /* Pods.debug.xcconfig */,
-				A2887DD9D003CB7650B32BBC /* Pods.release.xcconfig */,
+				1B2F59E61A098928DD4DAA09 /* Pods-blank-ios-app.debug.xcconfig */,
+				BAD179FC88B529C811C9A744 /* Pods-blank-ios-app.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -110,12 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48A628931C11E79100FA90F3 /* Build configuration list for PBXNativeTarget "blank-ios-app" */;
 			buildPhases = (
-				E799A560E53334957579F4A4 /* Check Pods Manifest.lock */,
+				E799A560E53334957579F4A4 /* [CP] Check Pods Manifest.lock */,
 				48A628781C11E79100FA90F3 /* Sources */,
 				48A628791C11E79100FA90F3 /* Frameworks */,
 				48A6287A1C11E79100FA90F3 /* Resources */,
-				84730BB08352A5744D4E8AC1 /* Embed Pods Frameworks */,
-				8A31B3D0D8E2A54E4168D091 /* Copy Pods Resources */,
+				84730BB08352A5744D4E8AC1 /* [CP] Embed Pods Frameworks */,
+				8A31B3D0D8E2A54E4168D091 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,44 +172,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		84730BB08352A5744D4E8AC1 /* Embed Pods Frameworks */ = {
+		84730BB08352A5744D4E8AC1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A31B3D0D8E2A54E4168D091 /* Copy Pods Resources */ = {
+		8A31B3D0D8E2A54E4168D091 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E799A560E53334957579F4A4 /* Check Pods Manifest.lock */ = {
+		E799A560E53334957579F4A4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +328,7 @@
 		};
 		48A628941C11E79100FA90F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A263EDCDFE709D949FA544 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 1B2F59E61A098928DD4DAA09 /* Pods-blank-ios-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/blank-ios-app/blank-ios-app-Info.plist";
@@ -341,7 +341,7 @@
 		};
 		48A628951C11E79100FA90F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2887DD9D003CB7650B32BBC /* Pods.release.xcconfig */;
+			baseConfigurationReference = BAD179FC88B529C811C9A744 /* Pods-blank-ios-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/blank-ios-app/blank-ios-app-Info.plist";
