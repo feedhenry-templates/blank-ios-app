@@ -14,6 +14,7 @@
 		48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A6288B1C11E79100FA90F3 /* Assets.xcassets */; };
 		48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48A628961C11EA4300FA90F3 /* fhconfig.plist */; };
 		5DDE2FD17ADCF332EF5B3B1E /* libPods-blank-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0FB1547A5D6E5A5F8EFDBF /* libPods-blank-ios-app.a */; };
+		88BC5A111E66E20D0084B55B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BC5A101E66E20D0084B55B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		48A6288B1C11E79100FA90F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A628901C11E79100FA90F3 /* blank-ios-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blank-ios-app-Info.plist"; sourceTree = "<group>"; };
 		48A628961C11EA4300FA90F3 /* fhconfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = fhconfig.plist; sourceTree = "<group>"; };
+		88BC5A101E66E20D0084B55B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		BAD179FC88B529C811C9A744 /* Pods-blank-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-blank-ios-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-blank-ios-app/Pods-blank-ios-app.release.xcconfig"; sourceTree = "<group>"; };
 		FC0FB1547A5D6E5A5F8EFDBF /* libPods-blank-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-blank-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 				48A628881C11E79100FA90F3 /* Main.storyboard */,
 				48A6288B1C11E79100FA90F3 /* Assets.xcassets */,
 				48A6287F1C11E79100FA90F3 /* Supporting Files */,
+				88BC5A101E66E20D0084B55B /* Launch Screen.storyboard */,
 			);
 			path = "blank-ios-app";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				48A628971C11EA4300FA90F3 /* fhconfig.plist in Resources */,
 				48A6288C1C11E79100FA90F3 /* Assets.xcassets in Resources */,
+				88BC5A111E66E20D0084B55B /* Launch Screen.storyboard in Resources */,
 				48A6288A1C11E79100FA90F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
